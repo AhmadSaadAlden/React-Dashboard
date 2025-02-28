@@ -1,0 +1,13 @@
+.primarybuttons{
+    cursor: pointer;
+    width: 124px;
+    height: 34px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #4880FF;     
+    background-color:  #4880FF;
+    font-family: "Nunito Sans", serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}

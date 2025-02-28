@@ -1,0 +1,67 @@
+.item-add{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 32px;
+
+    .item{
+        h1{
+            font-family: "Nunito Sans", serif;
+            font-weight: 700;
+            font-size: 28px;
+        }
+        form{
+            margin-top: 41px;
+            .group-input{
+                margin: 24px 0 ;
+            }
+            label{
+                font-family: "Nunito Sans", serif;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            input[type="text"],input[type="number"]{
+                width: 505px;
+                height: 45px;
+                border-radius: 6px;
+                border: 1px solid #D8D8D8;
+                margin-top: 4px;
+                padding-left: 19.47px;
+            }
+            input::placeholder{
+                font-family: "Nunito Sans", serif;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .btn{
+                font-family: "Nunito Sans", serif;
+                font-weight: 600;
+                font-size: 12px;
+            }
+        }
+    }
+    .images{
+        width: 475px;
+        height: 218px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 73px 0;
+        border: 1px dashed #D8D8D8;
+        position: relative;
+        img{
+            width: 123px;
+            height: 112px;
+            cursor: pointer;
+        }
+        input[type="file"] {
+            opacity: 0; 
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer; 
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.header{
+    background-color: #fff;
+    .nav-title{
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 32px;
+        h1{
+            font-family: "Nunito Sans", serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+        .infoaccount{
+            display: flex;
+            justify-content: space-between;
+            gap: 17.38px;
+            img{
+                width: 40.24px;
+                height: 40.18px;
+            }
+            .info{
+                h1{
+                    font-family: "Nunito Sans", serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #404040;
+                }
+                p{
+                    margin: 3px 0;
+                    font-family: "Nunito Sans", serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #565656;
+                }
+            }
+            
+        
+        }
+    }
+}
