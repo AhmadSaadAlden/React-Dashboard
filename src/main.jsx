@@ -13,15 +13,15 @@ import { NotificationProvider } from './assets/Components/AllProduct/ProductCont
 
 const router = createBrowserRouter([
   {
-    path : "/",
+    path : "/React-Dashboard/",
     element : <SignIn />,
   },
   {
-    path : "SignUp",
+    path : "/React-Dashboard/SignUp",
     element : <SignUp />
   },
   {
-    path : "dashboard",
+    path : "/React-Dashboard/dashboard",
     element : <Dashboard />,
     children: [
       {
