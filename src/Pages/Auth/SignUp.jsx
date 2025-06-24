@@ -1,6 +1,5 @@
 import './SignUp.css'
-import Register from '../../assets/Components/register/register'
-
+import Register from '../../assets/Components/register/Register.jsx'
 const SignUp = () => {
 
     const infosignup = [
