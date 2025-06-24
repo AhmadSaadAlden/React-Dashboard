@@ -1,0 +1,80 @@
+.content{
+    .data{
+        padding: 36px 32px;
+        header{
+            display: flex;
+            justify-content: space-between;
+            h1{
+                font-family: "Nunito Sans", serif;
+                font-size: 28px;
+                font-weight: 700;
+                color: #000;
+                cursor: pointer;
+            }
+            .btn{    
+                i{
+                    margin-right: 4.58px;
+                }
+            }
+        }
+        .all-products{
+            margin-top: 24px;
+            table{
+                width: 100%;
+                height: 48px;
+                background-color: #fff;
+                border-radius: 8px 8px 0px 0px;
+                thead{ 
+                    tr{                            
+                        th,td{
+                            font-family: "Nunito Sans", serif;
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #202224;
+                            padding: 12px;
+                            text-align: start;
+                            border-bottom: 1px solid #ddd;
+                        }
+                        
+                    } 
+                }
+            
+                .table-content{
+                    tr{
+                        height: 77px;
+                        td{
+                            text-align: start;
+                            padding: 12px;
+                            .upload-image{
+                                width: 56px;
+                                height: 60px;
+                                border-radius: 6px;
+                            }
+                        
+                        }
+                        .table-actions{ 
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            padding: 30px 15.95px;   
+                            width: 90px;
+                            height: 32px;  
+                            .edit-btn, .delete-btn{
+                                background-color: transparent;
+                                border: none;
+                                cursor: pointer;
+                                .edit-btn, .delete-btn img{
+                                    width: 14px;
+                                    height: 15;  
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+    
+}

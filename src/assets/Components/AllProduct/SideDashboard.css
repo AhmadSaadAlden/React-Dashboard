@@ -1,0 +1,41 @@
+.SideDashboard{
+    background-color: #fff;
+    width: 16.82vw;
+    height: 100vh;
+    
+    .info{
+        padding: 16px 58px;
+
+        h1{
+            font-size: 20px;
+            font-weight: 800px;
+            font-family: "Nunito Sans", serif;
+    
+            span{
+                color: #5A8CFF;
+            }
+        }
+        .navitem{
+            margin-top: 50px;
+        }
+        .logout{
+            margin-top: 59.57vh;
+            i{
+                .link{
+                    margin-left: 15px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #202224;
+                    font-size: 16px;
+                    font-weight: 600px;
+                    font-family: "Nunito Sans", serif;
+                }
+            }
+                
+            
+            
+        }
+    }
+
+   
+}

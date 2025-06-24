@@ -1,0 +1,67 @@
+  .delete-confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .delete-confirmation-box {
+    background: white;
+    border-radius: 20px;
+    width: 677px;
+    height: 321px;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+  }
+  
+  .delete-confirmation-box h3 {
+    color: #000000;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 93px 80px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+  }
+  
+  .confirm-btn,
+  .cancel-btn {
+    padding: 15px auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .confirm-btn {
+    background: #EF3826;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #4880FF;
+    color: white;
+  }
+  
+  .confirm-btn:hover {
+    background: #e60000; 
+  }
+  
+  .cancel-btn:hover {
+    background: #5672b8; 
+  }

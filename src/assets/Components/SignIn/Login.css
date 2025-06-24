@@ -1,0 +1,93 @@
+.body{
+    background-color: #4880FF;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 40px auto;
+    width: 498px;
+    height: 620px;
+    border-radius: 16px;
+
+    .info{
+        margin-top: 22px;
+        h1{
+            text-align: center;
+            font-weight: 700px;
+            font-size: 32px; 
+            color: #202224;
+            font-family: "Nunito Sans", serif;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            color: #202224;
+            font-family: "Nunito Sans", serif;
+            opacity: 80%;
+        }
+    }
+
+    .form{
+        .form-info{
+            margin: 32px 32px;
+            .input-group{
+                margin-top: 17px;
+
+                label{
+                    font-family: "Nunito Sans", serif;
+                    font-size: 16px;
+                    font-weight: 600px;
+                    color: #202224;
+                    opacity: 80%;
+                }
+                input{
+                    width: 434px;
+                    height: 45px;
+                    border: 1px solid #D8D8D8;
+                    background-color: #F1F4F9;
+                    border-radius: 6px;
+                    padding: 0 16.73px;
+                }
+                input::placeholder{
+                    font-family: "Nunito Sans", serif;
+                    font-size: 14px;
+                    font-weight: 600px;
+                    color: #A6A6A6;
+                }
+            }
+        
+        }
+
+        .register-group{
+            margin-top: 100px;
+            text-align: center;
+        } 
+    }
+
+    .register-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+        .span, .signup {
+            font-family: "Nunito Sans", serif;
+            font-size: 14px;
+            font-weight: 600px;
+            opacity: 65%;
+        }
+        .signup {
+            font-weight: 700px;
+            color: #5A8CFF;
+            text-decoration: underline;
+        }
+    }
+}
